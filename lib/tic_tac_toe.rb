@@ -119,9 +119,9 @@ class TicTacToe
       turn(board)
      end 
    
-     if won?(board)
+     if won?
       puts "Congratulations #{winner(board)}!"
-     elsif draw?(board)
+     elsif draw?
        puts "Cat's Game!"
      end 
    end 
